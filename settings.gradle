@@ -1,0 +1,1 @@
+include ':app', ':demotest', ':skinlibrary', ':skinpackage', ':quickAdapter'

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demotest/demotest.iml" filepath="$PROJECT_DIR$/demotest/demotest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hujin.iml" filepath="$PROJECT_DIR$/hujin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quickAdapter/quickAdapter.iml" filepath="$PROJECT_DIR$/quickAdapter/quickAdapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skinlibrary/skinlibrary.iml" filepath="$PROJECT_DIR$/skinlibrary/skinlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skinpackage/skinpackage.iml" filepath="$PROJECT_DIR$/skinpackage/skinpackage.iml" />
+    </modules>
+  </component>
+</project>

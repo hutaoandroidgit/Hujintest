@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_search"
+              android:layout_width="match_parent"
+              android:layout_marginRight="17dp"
+              android:layout_marginLeft="17dp"
+              android:layout_height="50dp"
+              android:alpha="0.6"
+              android:background="#ffa000"
+              android:gravity="center"
+              android:layout_gravity="center_vertical"
+              android:orientation="vertical"
+              android:paddingBottom="3dp"
+              android:paddingTop="3dp">
+
+
+    <LinearLayout
+        android:id="@+id/re_home_search"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_toLeftOf="@+id/tv_search"
+        android:layout_toRightOf="@+id/btn_back"
+        android:background="@drawable/boder_home"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:padding="7dp">
+
+        <ImageView
+            android:id="@+id/img_serch_jing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/search_in"/>
+
+        <TextView
+            android:id="@+id/edit_query"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@+id/voice_img"
+            android:layout_toRightOf="@+id/img_serch_jing"
+            android:background="@null"
+            android:hint="首页"
+            android:maxLines="1"
+            android:textColor="#FF909090"/>
+
+    </LinearLayout>
+</LinearLayout>
